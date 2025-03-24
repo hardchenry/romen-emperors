@@ -134,7 +134,7 @@ function App() {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
-    fetch('/roman-emperors.csv')
+    fetch('/romen-emperors/roman-emperors.csv')
       .then((response) => response.text())
       .then((csv) => {
         const records = parseCSV(csv);
@@ -533,7 +533,7 @@ function App() {
                               <TableCell>
                                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                                   <Avatar sx={{ bgcolor: '#b71c1c' }}>
-                                    {emperor.Name.charAt(0)}
+                                    {emperor.Name?.charAt(0) || '?'}
                                   </Avatar>
                                   {emperor.Name}
                                 </Box>
