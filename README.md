@@ -88,3 +88,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Data sourced from historical records
 - Built with React and Material-UI
 - Inspired by the rich history of the Roman Empire
+
+![image](https://github.com/user-attachments/assets/e8d4f36e-0f7a-4b9f-8d98-570e1a22a1da) 
+
+![image](https://github.com/user-attachments/assets/ab500be2-e5c7-49e6-9560-b35db93c2232)
+
